@@ -12,7 +12,7 @@ Download
 
 Usage
 ---
-Add your themoviedb.org API key in the `app/src/main/res/layout/content_main.xml` file:
+Add your admob's app id in the `app/src/main/res/layout/content_main.xml` file:
 
     <com.google.android.gms.ads.AdView
         ...
