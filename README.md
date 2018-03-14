@@ -3,7 +3,7 @@
 
 Description
 ---
-With Food Tracker you can manage your food by storage. The app notifies you when the date of expiry of the food is approaching. 
+With Food Tracker you can manage your food by storage. The app notifies you when the date of expiry of the food is approaching. Also you can use the widget to visualize the expiration state of the food. Do not allow any food to be wasted!
 
 Download
 ---
