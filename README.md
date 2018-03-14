@@ -10,12 +10,20 @@ Download
 <a href="https://play.google.com/store/apps/details?id=com.apps.yecotec.fridgetracker">
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="50px"/></a>
 
+Usage
+---
+Add your themoviedb.org API key in the `app/src/main/res/layout/content_main.xml` file:
+
+    <com.google.android.gms.ads.AdView
+        ...
+        ads:adUnitId="$PLACE_YOUR_ADMOB_APP_ID$"/>
+
 Overview
 ---
 - A open source project
 - Admob for showing ads
 - Usage of content provider for persisting data
-- Reminder widget
+- Reminder widget service
 - ViewPager as welcome screens
 - Job Scheduler for scheduling tasks
 - Alarm manager for launching notifications
