@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.yecotec.fridgetracker.DetailActivity">
+
+    <ImageView
+        android:id="@+id/detail_food_asset"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_food_0"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintHorizontal_bias="0.504" />
+
+    <TextView
+        android:id="@+id/detail_expiry_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Expiration Date: 02/10/2017"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_food_asset"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/detail_section_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Section: Section 1"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_expiry_date_text"
+        app:layout_constraintLeft_toLeftOf="@+id/detail_expiry_date_text" />
+
+    <TextView
+        android:id="@+id/detail_unit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Unit: Piece"
+        app:layout_constraintLeft_toLeftOf="@+id/detail_expiry_date_text"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_section_text" />
+
+    <TextView
+        android:id="@+id/detail_category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Category: Fruit"
+        app:layout_constraintLeft_toLeftOf="@+id/detail_expiry_date_text"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_unit_text" />
+
+    <TextView
+        android:id="@+id/detail_eat_all_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_accent_color"
+        android:text="@string/detail_eat_all_button_text"
+        android:textSize="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:elevation="2dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/detail_quantity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Quantity: 5"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_category_text"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/detail_eat_all_button" />
+
+    <ImageView
+        android:id="@+id/detail_remove_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_corner_accent_color"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_remove"
+        app:layout_constraintRight_toLeftOf="@+id/detail_quantity_text"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/detail_quantity_text"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_quantity_text"
+        android:layout_marginBottom="0dp" />
+
+    <ImageView
+        android:id="@+id/detail_add_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_add"
+        android:background="@drawable/rounded_corner_accent_color"
+        android:elevation="2dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/detail_quantity_text"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_quantity_text"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintTop_toTopOf="@+id/detail_quantity_text"
+        android:layout_marginTop="0dp" />
+
+
+</android.support.constraint.ConstraintLayout>

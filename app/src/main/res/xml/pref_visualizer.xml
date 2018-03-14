@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="send_notification_key"
+        android:title="@string/notification_label_1"
+        android:summaryOff="@string/off_label"
+        android:summaryOn="@string/on_label"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:textSize="14sp"
+        android:key="notification_periodicity_key"
+        android:title="@string/pref_notification_periodicity_label"
+        android:defaultValue="@string/pref_notification_periodicity_week_value"
+        android:entries="@array/pref_notification_periodicity_option_labels"
+        android:entryValues="@array/pref_notification_periodicity_option_values" />
+
+    <SwitchPreferenceCompat
+        android:key="vibrate_with_notification_key"
+        android:title="@string/notification_label_3"
+        android:summaryOff="@string/off_label"
+        android:summaryOn="@string/on_label"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

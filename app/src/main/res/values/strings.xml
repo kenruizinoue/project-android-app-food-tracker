@@ -1,0 +1,186 @@
+<resources>
+
+    <!-- generic strings -->
+    <string name="app_name">Food Tracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="label_settings">Settings</string>
+    <string name="label_notification">Notification</string>
+
+    <string name="title_activity_tour">TourActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="skip_text">SKIP</string>
+    <string name="done_text">DONE</string>
+    <string name="section_text">Storage</string>
+
+    <!-- menu strings -->
+    <string name="sort_label">Sort</string>
+    <string name="sort_by_expiration_date_label">Date of Expiry</string>
+    <string name="sort_by_ascending_label">Ascending</string>
+    <string name="sort_by_descending_label">Descending</string>
+    <string name="sort_by_remove_sort_label">Remove Sort</string>
+
+    <string name="filter_label">Filter</string>
+
+    <!-- view pager related strings -->
+    <string name="first_page_title_text_part_1">WELCOME TO</string>
+    <string name="first_page_title_text_part_2">FOOD TRACKER</string>
+    <string name="first_page_subtitle_text">An easy way to organize your food</string>
+    <string name="second_page_text_1">Press the button for adding food or storage</string>
+    <string name="second_page_text_2">Swipe to left for remove food</string>
+    <string name="third_page_text">You can filter by storage for monitoring the food you have in different parts</string>
+
+    <!-- fabs related strings-->
+    <string name="main_fab_label">Cancel</string>
+    <string name="add_food_fab_label">Add Food</string>
+    <string name="add_section_fab_label">Add Storage</string>
+
+    <!-- dialog related strings -->
+    <string name="cancel_text">Cancel</string>
+
+    <string name="without_date">Without Date</string>
+    <string name="warning_invalid_date_input">Please select a day after today</string>
+    <string name="expiration_date">Date of Expiry</string>
+
+    <string name="add_section_dialog_title">Add Storage</string>
+    <string name="add_section_dialog_hint">Storage Name</string>
+    <string name="add_section_dialog_label_color">Add Storage</string>
+
+    <string name="add_food_dialog_title">Add Food</string>
+    <string name="add_food_dialog_food_name_edit_text_hint">Food Name</string>
+    <string name="add_food_dialog_quantity_edit_text_hint">Quantity</string>
+    <string name="add_food_dialog_unit_prompt">Unit</string>
+    <string name="add_food_dialog_category_prompt">Category</string>
+    <string name="add_food_dialog_section_prompt">Storage</string>
+    <string name="add_food_dialog_expiration_date_label">Date of Expiry</string>
+
+
+
+    <string name="unit_piece">Piece</string>
+    <string name="unit_ounce">Ounce</string>
+    <string name="unit_pound">Pound</string>
+
+    <string-array name="unit_array">
+        <item>@string/unit_piece</item> <!-- int = 0 -->
+        <item>@string/unit_ounce</item> <!-- int = 1 -->
+        <item>@string/unit_pound</item> <!-- int = 2 -->
+    </string-array>
+
+    <string-array name="category_array">
+        <item>@string/food_fruit</item> <!-- int = 0 -->
+        <item>@string/food_vegetable</item> <!-- int = 1 -->
+        <item>@string/food_meat</item> <!-- int = 2 -->
+        <item>@string/food_sausage</item> <!-- int = 3 -->
+        <item>@string/food_beverage</item> <!-- int = 4 -->
+        <item>@string/food_dairy</item> <!-- int = 5 -->
+        <item>@string/food_sauce</item> <!-- int = 6 -->
+        <item>@string/food_frozen</item> <!-- int = 7 -->
+        <item>@string/food_instant</item> <!-- int = 8 -->
+        <item>@string/food_snack</item> <!-- int = 9 -->
+        <item>@string/food_other</item> <!-- int = 10 -->
+    </string-array>
+
+    <!-- settings related strings -->
+
+    <string name="on_label">On</string>
+    <string name="off_label">Off</string>
+    <string name="notification_label_1">Send Notification</string>
+    <string name="notification_label_2">Notify Before Date of Expiry</string>
+    <string name="notification_label_3">Vibrate when Received Notification</string>
+
+    <!-- list preference strings -->
+    <string name="pref_notification_periodicity_label">Notify before Date of Expiry</string>
+
+    <string name="pref_notification_periodicity_week">1 Week</string>
+    <string name="pref_notification_periodicity_3_days">3 Days</string>
+    <string name="pref_notification_periodicity_1_day">1 Day</string>
+
+    <string name="pref_notification_periodicity_week_value" translatable="false">7</string>
+    <string name="pref_notification_periodicity_3_days_value" translatable="false">3</string>
+    <string name="pref_notification_periodicity_1_day_value" translatable="false">1</string>
+
+    <!-- about us related strings -->
+    <string name="about_us_app_title" translatable="false">Food Tracker</string>
+    <string name="about_us_version_text">Version 1.0</string>
+    <string name="about_us_yeco" translatable="false">Yeco Technologies</string>
+    <string name="about_us_rights_text">© 2017 Ken Ruiz Inoue All Rights Reserved</string>
+
+    <!-- edit related strings -->
+    <string name="edit_food_dialog_title">Edit Food</string>
+    <string name="edit_section_dialog_title">Edit Storage</string>
+    <string name="edit_text">Edit</string>
+
+
+    <!-- confirm delete section related strings -->
+    <string name="confirm_text_1">Are you sure to delete this storage?</string>
+    <string name="confirm_text_2">This action will delete all the food within this storage.</string>
+    <string name="confirm_title">Delete Storage</string>
+    <string name="delete_text">Delete</string>
+
+    <!-- move food section related strings -->
+    <string name="move_food_title">Move Food</string>
+    <string name="move_food_text_1">Select foods you want to move</string>
+    <string name="move_food_text_2">Move to</string>
+    <string name="move_text">Move</string>
+
+    <!-- detail activity related strings -->
+    <string name="detail_eat_all_button_text">Eat All</string>
+    <string name="warning_negative_case">You can\'t have negative food</string>
+    <string name="expiration_label">Date of Expiry:</string>
+    <string name="section_label">Storage:</string>
+    <string name="unit_label">Unit:</string>
+    <string name="category_label">Category:</string>
+    <string name="quantity_label">Quantity:</string>
+
+    <!-- main activity related strings -->
+    <string name="snack_bar_deleted">Deleted:</string>
+    <string name="snack_bar_undo">Undo</string>
+    <string name="dynamic_menu_remove_filter">Remove Filter</string>
+    <string name="toast_warning_add_food">First add a storage please</string>
+    <string name="menu_section_edit">Edit Storage</string>
+    <string name="menu_section_delete">Delete Storage</string>
+    <string name="menu_section_move">Move Food</string>
+    <string name="navigation_drawer_create">Create Samples</string>
+    <string name="navigation_drawer_settings">Go to Settings</string>
+    <string name="navigation_drawer_about">About</string>
+    <string name="navigation_drawer_visit">Visit Our Page</string>
+    <string name="navigation_drawer_tutorial">Tutorial</string>
+
+    <!-- search activity related strings -->
+    <string name="search_activity_text">Search Results</string>
+
+    <!-- widget related strings -->
+    <string name="widget_title">Foods About to Expire</string>
+    <string name="widget_empty_case">There are no foods about to expire</string>
+    <string name="add_widget">Add Widget</string>
+
+    <!-- category related strings -->
+    <string name="food_fruit">Fruit</string>
+    <string name="food_vegetable">Vegetable</string>
+    <string name="food_meat">Meat</string>
+    <string name="food_sausage">Sausage</string>
+    <string name="food_beverage">Beverage</string>
+    <string name="food_dairy">Dairy</string>
+    <string name="food_sauce">Sauce</string>
+    <string name="food_frozen">Frozen</string>
+    <string name="food_instant">Instant Food</string>
+    <string name="food_snack">Snack</string>
+    <string name="food_other">Other</string>
+
+    <!-- sample data set -->
+    <string name="sample_section">Sample Section</string>
+    <string name="sample_food_1">Lettuce</string>
+    <string name="sample_food_2">Apple</string>
+    <string name="sample_food_3">Pizza</string>
+    <string name="sample_food_4">Rib Eye Steak</string>
+
+    <!-- Notification related strings -->
+    <string name="notification_first_text">This food is about to expire!</string>
+    <string name="notification_second_text">is about to expire, consume as soon as possible!</string>
+
+
+
+</resources>

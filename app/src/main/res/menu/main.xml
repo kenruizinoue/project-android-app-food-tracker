@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/ic_sort"
+        android:title="@string/sort_label"
+        app:showAsAction="always"
+        android:orderInCategory="0">
+
+        <menu>
+            <item
+                android:id="@+id/action_sort_date"
+                android:title="@string/sort_by_expiration_date_label"/>
+
+            <item
+                android:id="@+id/action_sort_ascending"
+                android:title="@string/sort_by_ascending_label" />
+
+            <item
+                android:id="@+id/action_sort_descending"
+                android:title="@string/sort_by_descending_label" />
+
+            <item
+                android:id="@+id/action_sort_remove"
+                android:title="@string/sort_by_remove_sort_label" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/filter_collection"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter_label"
+        app:showAsAction="always"
+        android:orderInCategory="0">
+        <menu>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Action Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>

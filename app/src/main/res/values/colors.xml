@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- custom theme colors -->
+    <color name="customPrimary">#03a9f4</color>
+    <color name="customPrimaryDark">#1B93C9</color>
+    <color name="customAccent">#ed2855</color>
+
+
+    <!-- color for pages and dots -->
+    <color name="colorPage1">#FF80AB</color>
+    <color name="colorPage2">#82B1FF</color>
+    <color name="colorPage3">#EA80FC</color>
+    <color name="selectedDotColor">#EAEAEA</color>
+
+    <color name="colorPage1Dark">#FF4081</color>
+    <color name="colorPage2Dark">#448AFF</color>
+    <color name="colorPage3Dark">#E040FB</color>
+
+    <!-- colors for main activity -->
+    <color name="mainFabOpened">#CCFFFFFF</color>
+
+    <!-- color options for sections -->
+    <color name="colorOptionSelected">#E5E3E3</color>
+    <color name="colorOption1">#2CD688</color>
+    <color name="colorOption2">#FF80AB</color>
+    <color name="colorOption3">#EA80FC</color>
+    <color name="colorOption4">#B388FF</color>
+    <color name="colorOption5">#8C9EFF</color>
+
+    <!-- color for texts -->
+    <color name="secondaryText">#777777</color>
+    <color name="expireText">#BF360C</color>
+
+</resources>

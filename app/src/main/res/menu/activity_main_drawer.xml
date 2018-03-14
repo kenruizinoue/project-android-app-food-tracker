@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create_samples"
+            android:icon="@drawable/ic_samples"
+            android:title="@string/navigation_drawer_create" />
+        <item
+            android:id="@+id/nav_go_to_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/navigation_drawer_settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/navigation_drawer_about" />
+        <item
+            android:id="@+id/nav_visit_our_page"
+            android:icon="@drawable/ic_web_page"
+            android:title="@string/navigation_drawer_visit" />
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_smartphone"
+            android:title="@string/navigation_drawer_tutorial" />
+
+        <item
+            android:id="@+id/menu_none"
+            android:title=""
+            android:visible="false"/>
+    </group>
+
+</menu>

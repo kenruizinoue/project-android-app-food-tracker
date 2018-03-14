@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_layout_food_item">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view_circle_back_ground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:background="@drawable/circle_color_1"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/image_view_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:src="@drawable/ic_apple"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/image_view_circle_back_ground"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_circle_back_ground"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="0dp"
+            app:layout_constraintRight_toRightOf="@+id/image_view_circle_back_ground"
+            app:layout_constraintTop_toTopOf="@+id/image_view_circle_back_ground"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/text_view_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Ham 1"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/image_view_circle_back_ground"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintTop_toTopOf="@+id/image_view_circle_back_ground"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/text_view_food_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            tools:text="5 Pieces"
+            app:layout_constraintLeft_toRightOf="@+id/image_view_circle_back_ground"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_circle_back_ground"
+            android:layout_marginBottom="0dp" />
+
+        <ImageView
+            android:id="@+id/image_view_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_calendar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="220dp"
+            app:layout_constraintLeft_toLeftOf="@+id/image_view_circle_back_ground" />
+
+        <TextView
+            android:id="@+id/text_view_expiration_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="09/09/2017"
+            app:layout_constraintBottom_toBottomOf="@+id/image_view_calendar"
+            app:layout_constraintLeft_toRightOf="@+id/image_view_calendar"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintTop_toTopOf="@+id/image_view_calendar"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
