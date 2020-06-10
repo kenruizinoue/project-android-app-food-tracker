@@ -20,7 +20,7 @@ Add your admob's app id in the `app/src/main/res/layout/content_main.xml` file:
 
 Overview
 ---
-- A open source project
+- An open source project
 - Admob for showing ads
 - Usage of content provider for persisting data
 - Reminder widget service
